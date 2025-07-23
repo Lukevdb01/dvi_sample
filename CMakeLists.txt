@@ -51,6 +51,7 @@ pico_enable_stdio_usb(dvi_sample 0)
 # Add the standard library to the build
 target_link_libraries(dvi_sample
     pico_stdlib
+    pico_multicore
     libdvi
 )
 
